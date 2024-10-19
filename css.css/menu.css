@@ -85,10 +85,10 @@ footer{
 }
 footer a{
     opacity: 0.3;
-    height: 50px;
-    width: 150px;
+    height: 70px;
+    width: 200px;
 }
 footer a:nth-last-child(3){
-    height: 50px;
-    width: 60px;
+    height: 70px;
+    width: 150px;
 }
