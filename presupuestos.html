@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css/presupuestos.css">
+</head>
+<body>
+    <nav >
+        <img class="logo" src="assets/imagenes/deslumbrante.png" alt="LOGO DE DESLUMBRANTE">
+
+            <a href="http://127.0.0.1:5503/menu.html">menu</a>
+            <a href="http://127.0.0.1:5503/productos.html">productos</a>
+            <a href="http://127.0.0.1:5503/presupuestos.html">presupuestos</a>
+            <a href="http://127.0.0.1:5503/contacto.html">contacto</a>
+    </nav>
+    <form action="datos" method="post">
+
+        <div class="nombre">
+            <label for="nombre">ingrese su nombre</label><br>
+        <input type="text" placeholder="escribe tu nombre" maxlength="10" name="nombre" id="nombre"><br>
+        </div>
+
+        <div class="correoelectronico">
+            <label for="correoelectronico">ingrese su correoelectronico</label><br>
+        <input type="email" placeholder="escribe tu correoelectronico" maxlength="30" name="correoelectronico" id="correoelectronico"><br>
+        </div>
+
+        <div  class="telefono">
+            <label for="telefono">telefono</label><br>
+        <input type="tel" placeholder="escribe tu telefono" maxlength="10" name="telefono" id="telefono"><br>
+        </div>
+
+        <div class="informacion">
+            <label for="informacion">mas informacion</label><br>
+        <input type="text" placeholder="color favorito" name="informacion" id="informacion"><br>
+        <input type="text" placeholder="libro que mas te gusta " name="informacion" id="informacion"><br>
+        <input type="text" placeholder="articulos mas usados " name="informacion" id="informacion"><br>
+        <input type="text" placeholder="colecion que mas usas " name="informacion" id="informacion"><br>
+        </div>
+
+        <div class="checkbox">
+            <label for="permiso"></label><br>
+        <input type="checkbox" name="checkbox" value="verdadero" checked>autorizo el uso de mis datos 
+        </div> 
+
+        <div class="enviar">
+            <label for="enviar"></label><br>
+            <input type="submit" placeholder="enviar" id="enviar">
+        </div>
+
+    </form>
+</body>
+</html>
